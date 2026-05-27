@@ -8,7 +8,7 @@
             (e.ctrlKey && e.shiftKey && e.key === 'J') || (e.ctrlKey && e.key === 'U')) {
             e.preventDefault();
         }
-    });
+    }); 
     
     document.addEventListener('copy', e => {
         if (!e.target.closest('#modalCode')) {
