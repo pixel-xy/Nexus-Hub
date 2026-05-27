@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="NEXUS HUB V4 - Premium Roblox Scripts & Executor. Get the best scripts for your favorite Roblox games.">
+    <meta name="keywords" content="roblox, scripts, executor, nexus hub, roblox scripts, roblox executor">
+    <meta name="author" content="NEXUS HUB V4">
+    <meta name="robots" content="index, follow">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+    <meta http-equiv="X-XSS-Protection" content="1; mode=block">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+    <title>NEXUS HUB V4 — Premium Roblox Scripts</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <i class="fas fa-cube"></i>
+                <span>NEXUS HUB</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#inicio">Home</a></li>
+                <li><a href="#scripts">Scripts</a></li>
+                <li><a href="#exploit">Executor</a></li>
+            </ul>
+            <div class="online-counter">
+                <i class="fas fa-circle online-dot"></i>
+                <span id="onlineCount">0</span> Online
+            </div>
+            <div class="hamburger" aria-label="Toggle menu" role="button" tabindex="0">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">NEXUS HUB V4</h1>
+            <p class="hero-subtitle">Premium scripts for Roblox. Join our Discord for keys, updates, and support.</p>
+            <div class="hero-buttons">
+                <a href="#scripts" class="btn btn-primary">Browse Scripts</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="scripts" class="scripts-section">
+        <div class="container">
+            <h2 class="section-title">Available Scripts</h2>
+            <p class="section-subtitle">Premium and keyless scripts for your favorite Roblox games</p>
+            
+            <div class="scripts-grid">
+                <div class="script-card premium">
+                    <div class="script-icon">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h3>ANIME LIMITLESS</h3>
+                    <p>New game — Members only</p>
+                    <div class="script-tags">
+                        <span class="tag premium-tag">Premium</span>
+                        <span class="tag">Key Required</span>
+                    </div>
+                    <div class="premium-badge">
+                        <i class="fas fa-lock"></i> Requires Discord Access
+                    </div>
+                    <button class="btn-view" onclick="viewScript('animeLimitless')">View Script</button>
+                </div>
+
+                <div class="script-card">
+                    <div class="script-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>EL PASO, TEXAS: BORDER ROLEPLAY</h3>
+                    <p>Updated — Keyless</p>
+                    <div class="script-tags">
+                        <span class="tag free-tag">Keyless</span>
+                        <span class="tag">Roleplay</span>
+                    </div>
+                    <button class="btn-view" onclick="viewScript('elPaso')">View Script</button>
+                </div>
+
+                <div class="script-card">
+                    <div class="script-icon">
+                        <i class="fas fa-crown"></i>
+                    </div>
+                    <h3>SAILOR PIECE — Ghoul Update</h3>
+                    <p>Updated — Keyless</p>
+                    <div class="script-tags">
+                        <span class="tag free-tag">Keyless</span>
+                        <span class="tag">One Piece</span>
+                    </div>
+                    <button class="btn-view" onclick="viewScript('sailorPiece')">View Script</button>
+                </div>
+
+                <div class="script-card">
+                    <div class="script-icon">
+                        <i class="fas fa-running"></i>
+                    </div>
+                    <h3>SWING OBBY FOR BRAINROTS</h3>
+                    <p>Updated — Keyless</p>
+                    <div class="script-tags">
+                        <span class="tag free-tag">Keyless</span>
+                        <span class="tag">Obby</span>
+                    </div>
+                    <button class="btn-view" onclick="viewScript('swingObby')">View Script</button>
+                </div>
+
+                <div class="script-card">
+                    <div class="script-icon">
+                        <i class="fas fa-crosshairs"></i>
+                    </div>
+                    <h3>MURDERERS VS SHERIFFS — Duels</h3>
+                    <p>Updated — Keyless</p>
+                    <div class="script-tags">
+                        <span class="tag free-tag">Keyless</span>
+                        <span class="tag">PvP</span>
+                    </div>
+                    <button class="btn-view" onclick="viewScript('murderersVsSheriffs')">View Script</button>
+                </div>
+
+                <div class="script-card">
+                    <div class="script-icon">
+                        <i class="fas fa-egg"></i>
+                    </div>
+                    <h3>ESCAPE OBBIES FOR BRAINROTS</h3>
+                    <p>Updated — Keyless</p>
+                    <div class="script-tags">
+                        <span class="tag free-tag">Keyless</span>
+                        <span class="tag">Obby</span>
+                    </div>
+                    <button class="btn-view" onclick="viewScript('escapeObbies')">View Script</button>
+                </div>
+
+                <div class="script-card">
+                    <div class="script-icon">
+                        <i class="fas fa-water"></i>
+                    </div>
+                    <h3>ESCAPE TSUNAMI FOR BRAINROTS</h3>
+                    <p>Updated — Keyless</p>
+                    <div class="script-tags">
+                        <span class="tag free-tag">Keyless</span>
+                        <span class="tag">Survival</span>
+                    </div>
+                    <button class="btn-view" onclick="viewScript('escapeTsunami')">View Script</button>
+                </div>
+
+                <div class="script-card">
+                    <div class="script-icon">
+                        <i class="fas fa-fire"></i>
+                    </div>
+                    <h3>SAVE BRAINROTS FROM LAVA</h3>
+                    <p>Updated — Keyless</p>
+                    <div class="script-tags">
+                        <span class="tag free-tag">Keyless</span>
+                        <span class="tag">Survival</span>
+                    </div>
+                    <button class="btn-view" onclick="viewScript('saveBrainrots')">View Script</button>
+                </div>
+
+                <div class="script-card premium">
+                    <div class="script-icon">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <h3>Survive Homelander</h3>
+                    <p>Updated with key — Members only</p>
+                    <div class="script-tags">
+                        <span class="tag premium-tag">Premium</span>
+                        <span class="tag">Key Required</span>
+                    </div>
+                    <div class="premium-badge">
+                        <i class="fas fa-lock"></i> Requires Discord Access
+                    </div>
+                    <button class="btn-view" onclick="viewScript('surviveHomelander')">View Script</button>
+                </div>
+
+                <div class="script-card">
+                    <div class="script-icon">
+                        <i class="fas fa-sync-alt"></i>
+                    </div>
+                    <h3>ANIME LIMITLESS — Auto Collect Soul</h3>
+                    <p>Auto Collect Soul & Server Hop — Keyless</p>
+                    <div class="script-tags">
+                        <span class="tag free-tag">Keyless</span>
+                        <span class="tag">Auto Farm</span>
+                    </div>
+                    <button class="btn-view" onclick="viewScript('animeLimitlessAuto')">View Script</button>
+                </div>
+
+                <div class="script-card">
+                    <div class="script-icon">
+                        <i class="fas fa-basketball-ball"></i>
+                    </div>
+                    <h3>BASKETBALL LEGENDS</h3>
+                    <p>New — Keyless</p>
+                    <div class="script-tags">
+                        <span class="tag free-tag">Keyless</span>
+                        <span class="tag">Sports</span>
+                    </div>
+                    <button class="btn-view" onclick="viewScript('basketballLegends')">View Script</button>
+                </div>
+
+                <div class="script-card">
+                    <div class="script-icon">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <h3>OUTRUN A SPEEDSTER</h3>
+                    <p>New — Keyless</p>
+                    <div class="script-tags">
+                        <span class="tag free-tag">Keyless</span>
+                        <span class="tag">Racing</span>
+                    </div>
+                    <button class="btn-view" onclick="viewScript('outrunASpeedster')">View Script</button>
+                </div>
+
+                <div class="script-card">
+                    <div class="script-icon">
+                        <i class="fas fa-dumbbell"></i>
+                    </div>
+                    <h3>POWER SIMULATOR X</h3>
+                    <p>New — Keyless</p>
+                    <div class="script-tags">
+                        <span class="tag free-tag">Keyless</span>
+                        <span class="tag">Simulator</span>
+                    </div>
+                    <button class="btn-view" onclick="viewScript('powerSimulatorX')">View Script</button>
+                </div>
+
+                <div class="script-card">
+                    <div class="script-icon">
+                        <i class="fas fa-flag-checkered"></i>
+                    </div>
+                    <h3>TRACK RACE</h3>
+                    <p>New — Keyless</p>
+                    <div class="script-tags">
+                        <span class="tag free-tag">Keyless</span>
+                        <span class="tag">Racing</span>
+                    </div>
+                    <button class="btn-view" onclick="viewScript('trackRace')">View Script</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="exploit" class="exploit-section">
+        <div class="container">
+            <h2 class="section-title">Get The Best Executor</h2>
+            <p class="section-subtitle">Powerful, fast, and undetected — the #1 Roblox executor</p>
+            <div class="exploit-content">
+                <div class="exploit-features">
+                    <div class="feature-item">
+                        <i class="fas fa-shield-alt"></i>
+                        <h3>Undetected</h3>
+                        <p>Advanced anti-ban protection keeps you safe</p>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fas fa-bolt"></i>
+                        <h3>Lightning Fast</h3>
+                        <p>Execute scripts instantly with zero lag</p>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fas fa-code"></i>
+                        <h3>Full Lua Support</h3>
+                        <p>Compatible with all Roblox scripts</p>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fas fa-sync"></i>
+                        <h3>Auto Updates</h3>
+                        <p>Always up-to-date with latest patches</p>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fas fa-headset"></i>
+                        <h3>24/7 Support</h3>
+                        <p>Premium customer support included</p>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fas fa-crown"></i>
+                        <h3>Premium Features</h3>
+                        <p>Script hub, auto-execute & more</p>
+                    </div>
+                </div>
+                <div class="exploit-cta">
+                    <div class="exploit-box">
+                        <div class="exploit-badge">
+                            <i class="fas fa-star"></i>
+                            <span>MOST POWERFUL</span>
+                        </div>
+                        <h3>Potassium Executor</h3>
+                        <div class="price-tag">
+                            <span class="new-price">$22.97</span>
+                        </div>
+                        <ul class="exploit-benefits">
+                            <li><i class="fas fa-check"></i> Lifetime License</li>
+                            <li><i class="fas fa-check"></i> Instant Delivery</li>
+                            <li><i class="fas fa-check"></i> Free Updates Forever</li>
+                            <li><i class="fas fa-check"></i> No Monthly Fees</li>
+                            <li><i class="fas fa-check"></i> Money Back Guarantee</li>
+                        </ul>
+                        <a href="https://wyv.gg/product/potassium-executor/" target="_blank" class="btn btn-exploit">
+                            <i class="fas fa-shopping-cart"></i> Buy Now — $22.97
+                        </a>
+                        <p class="secure-payment">
+                            <i class="fas fa-lock"></i> Secure Payment · Instant Access
+                        </p>
+                        <div class="trust-badges">
+                            <span><i class="fas fa-users"></i> 50,000+ Users</span>
+                            <span><i class="fas fa-star"></i> 4.9/5 Rating</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 NEXUS HUB V4</p>
+            <div class="social-links">
+                <a href="#scripts"><i class="fas fa-gamepad"></i></a>
+                <a href="#inicio"><i class="fas fa-home"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <div id="scriptModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2 id="modalTitle">Script Code</h2>
+            <div id="keyRequirement" class="key-requirement"></div>
+            <pre><code id="modalCode"></code></pre>
+            <div class="modal-actions">
+                <button class="btn btn-primary" onclick="copyCode()">
+                    <i class="fas fa-copy"></i> Copy Script
+                </button>
+                <button class="btn btn-secondary" onclick="copyToClipboard()">
+                    <i class="fas fa-mobile-alt"></i> Mobile Copy
+                </button>
+            </div>
+            <div id="copySuccess" class="copy-success"></div>
+        </div>
+    </div>
+
+    <div id="keyAuthModal" class="modal">
+        <div class="modal-content key-auth-content">
+            <span class="close" onclick="closeKeyAuth()">&times;</span>
+            <div class="key-auth-box">
+                <div class="lock-icon">
+                    <i class="fas fa-lock"></i>
+                </div>
+                <h2>Premium Access Required</h2>
+                <p class="auth-description">To view premium script keys, you need the master access key.</p>
+                <form id="keyAuthForm" class="key-auth-form">
+                    <div class="input-group">
+                        <i class="fas fa-key"></i>
+                        <input type="password" id="masterKey" placeholder="Enter Master Key from Discord" required>
+                    </div>
+                    <button type="submit" class="btn btn-primary">
+                        <i class="fas fa-unlock"></i> Unlock Premium Keys
+                    </button>
+                </form>
+                <div id="keyAuthError" class="error-message"></div>
+            </div>
+        </div>
+    </div>
+
+
+    <script type="module">
+        import { initializeApp } from 'https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js';
+        import { getDatabase, ref, set, remove, update, onValue, onDisconnect, serverTimestamp, get } from 'https://www.gstatic.com/firebasejs/10.7.1/firebase-database.js';
+
+        const firebaseConfig = {
+            apiKey: "AIzaSyCJaqhWkl-RvTS0Ot92PjNK2kayrASFAXg",
+            authDomain: "nexushubv4.firebaseapp.com",
+            databaseURL: "https://nexushubv4-default-rtdb.firebaseio.com",
+            projectId: "nexushubv4",
+            storageBucket: "nexushubv4.firebasestorage.app",
+            messagingSenderId: "762566348226",
+            appId: "1:762566348226:web:f3a5128ece3e9e60bb5a5b",
+            measurementId: "G-RM7D884VD6"
+        };
+
+        const app = initializeApp(firebaseConfig);
+        const database = getDatabase(app);
+
+        // ===== PRESENCE SYSTEM (multi-layer protection vs duplicates) =====
+        const HEARTBEAT_MS = 25000;       // refresh own ts every 25s
+        const STALE_MS = 60000;           // entries older than 60s = zombie
+        const UID_TTL_MS = 30 * 24 * 60 * 60 * 1000; // 30 days
+        const safeRand = () => {
+            try {
+                const a = new Uint32Array(2);
+                crypto.getRandomValues(a);
+                return a[0].toString(36) + a[1].toString(36);
+            } catch (_) {
+                return Math.random().toString(36).slice(2) + Math.random().toString(36).slice(2);
+            }
+        };
+        const isValidId = (v) => typeof v === 'string' && /^[a-z0-9_-]{6,80}$/i.test(v);
+
+        // Stable uid per browser (with TTL + corruption check)
+        let uid, uidMeta;
+        try {
+            uidMeta = JSON.parse(localStorage.getItem('nexus_uid_v2') || 'null');
+        } catch (_) { uidMeta = null; }
+        const nowMs = Date.now();
+        if (!uidMeta || !isValidId(uidMeta.uid) || (nowMs - (uidMeta.createdAt || 0)) > UID_TTL_MS) {
+            uidMeta = { uid: 'u_' + nowMs.toString(36) + safeRand(), createdAt: nowMs };
+            try { localStorage.setItem('nexus_uid_v2', JSON.stringify(uidMeta)); } catch (_) {}
+        }
+        uid = uidMeta.uid;
+
+        // Per-tab connection id
+        const connId = 'c_' + nowMs.toString(36) + safeRand();
+        const connRef = ref(database, 'presence/' + uid + '/' + connId);
+
+        // Single-tab leader election via BroadcastChannel (only leader heartbeats)
+        let isLeader = true;
+        let bc = null;
+        try {
+            bc = new BroadcastChannel('nexus_presence_' + uid);
+            bc.postMessage({ type: 'hello', connId, t: Date.now() });
+            bc.onmessage = (ev) => {
+                if (!ev || !ev.data) return;
+                const { type, connId: otherId, t } = ev.data;
+                if (type === 'hello' && otherId !== connId) {
+                    // Newer tab announces itself; older keeps leadership but acks
+                    if (bc) bc.postMessage({ type: 'leader', connId, t: Date.now() });
+                } else if (type === 'leader' && otherId !== connId && t < Date.now()) {
+                    // Another tab claims leadership earlier — yield
+                    isLeader = false;
+                }
+            };
+        } catch (_) { /* BroadcastChannel unsupported — every tab heartbeats, harmless */ }
+
+        const writeConn = () => {
+            return set(connRef, { ts: serverTimestamp(), ua: (navigator.userAgent || '').slice(0, 80) }).catch(() => {});
+        };
+        const heartbeat = () => {
+            if (!isLeader) return;
+            update(connRef, { ts: serverTimestamp() }).catch(() => {});
+        };
+
+        writeConn();
+        onDisconnect(connRef).remove();
+
+        let hbTimer = setInterval(heartbeat, HEARTBEAT_MS);
+
+        // Re-register on bfcache restore
+        window.addEventListener('pageshow', (e) => {
+            if (e.persisted) {
+                writeConn();
+                onDisconnect(connRef).remove();
+            }
+        });
+        // Refresh immediately when tab becomes visible
+        document.addEventListener('visibilitychange', () => {
+            if (document.visibilityState === 'visible') heartbeat();
+        });
+        // Cleanup on close
+        const cleanup = () => {
+            try { clearInterval(hbTimer); } catch (_) {}
+            try { remove(connRef); } catch (_) {}
+            try { if (bc) bc.close(); } catch (_) {}
+        };
+        window.addEventListener('pagehide', cleanup);
+        window.addEventListener('beforeunload', cleanup);
+
+        // Sync uid across tabs if it changes elsewhere
+        window.addEventListener('storage', (e) => {
+            if (e.key === 'nexus_uid_v2' && e.newValue && e.newValue !== JSON.stringify(uidMeta)) {
+                // Another tab rotated the uid — reload to sync state safely
+                location.reload();
+            }
+        });
+
+        // Listen + count unique uids with at least one fresh connection
+        const presenceRef = ref(database, 'presence');
+        let lastSweep = 0;
+        onValue(presenceRef, (snapshot) => {
+            const now = Date.now();
+            let count = 0;
+            const zombies = [];
+            if (snapshot.exists()) {
+                snapshot.forEach((userSnap) => {
+                    let alive = false;
+                    userSnap.forEach((connSnap) => {
+                        const v = connSnap.val();
+                        const ts = (v && typeof v === 'object' && typeof v.ts === 'number') ? v.ts : 0;
+                        if (ts && (now - ts) < STALE_MS) {
+                            alive = true;
+                        } else if (ts && (now - ts) > STALE_MS * 3) {
+                            zombies.push(userSnap.key + '/' + connSnap.key);
+                        }
+                    });
+                    if (alive) count++;
+                });
+            }
+            const el = document.getElementById('onlineCount');
+            if (el) el.textContent = count;
+
+            // Throttled zombie sweep (max once per 2 min, max 20 per pass)
+            if (zombies.length && (now - lastSweep) > 120000) {
+                lastSweep = now;
+                zombies.slice(0, 20).forEach((p) => {
+                    remove(ref(database, 'presence/' + p)).catch(() => {});
+                });
+            }
+        });
+
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
