@@ -417,7 +417,7 @@ if Config.unlocked then
     KeyInput.TextColor3 = Color3.fromRGB(100, 255, 100)
     LockedOverlay.Visible = false
 end
-
+ 
 local FailedAttempts = 0
 local LockoutTime = 0
 
